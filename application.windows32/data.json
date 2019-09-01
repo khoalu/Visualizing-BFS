@@ -1,0 +1,11 @@
+{
+	"mode" : 0,
+	"rows" : 28,
+	"cols" : 50,
+	"cellW" : 25,
+	"cellH" : 25,
+	"startRow" : 14,
+	"startCol" : 25,
+	"seed" : 10,
+	"delayTime" : 50,
+}

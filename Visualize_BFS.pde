@@ -55,6 +55,7 @@ void bfs()
 }
 JSONObject json;
 int mode;
+int delayTime;
 void setup()
 {
   
@@ -71,6 +72,7 @@ void setup()
   cellH = json.getInt("cellH");
   startRow = json.getInt("startRow");
   startCol = json.getInt("startCol");
+  delayTime = json.getInt("delayTime");
   
   if (seed != -1) randomSeed(seed);
   
@@ -126,7 +128,7 @@ void draw()
      }
    }
   
-  delay(100);
+  delay(delayTime);
   
   if (curPos > dist[q[rear].r][q[rear].c] + 1)
   {
